@@ -7,6 +7,8 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+theme = "hallo"
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -14,3 +16,17 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+links = [
+    # { title = "E-Mail", url = "mailto:mail@example.org", iconset = "fas", icon = "envelope" },
+    { title = "GitHub", url = "https://github.com/lbellomo", icon = "github" },
+    { title = "Stack Overflow", url = "https://stackoverflow.com/users/3954379/lucas", icon = "stack-overflow" },
+    { title = "Twitter", url = "https://twitter.com/_lbellomo", icon = "twitter" }
+]
+
+[extra.author]
+name = "Lucas"
+
+[extra.theme]
+background = "#333"
+foreground = "#FFF" # text and portrait border
+hover = "#6FCDBD" # link hover
