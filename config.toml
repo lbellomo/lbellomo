@@ -19,7 +19,6 @@ links = [
     # { title = "E-Mail", url = "mailto:mail@example.org", iconset = "fas", icon = "envelope" },
     { title = "GitHub", url = "https://github.com/lbellomo", icon = "github" },
     { title = "Stack Overflow", url = "https://stackoverflow.com/users/3954379/lucas", icon = "stack-overflow" },
-    { title = "Twitter", url = "https://twitter.com/_lbellomo", icon = "twitter" }
 ]
 
 [extra.author]
